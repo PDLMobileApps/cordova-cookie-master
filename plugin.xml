@@ -19,6 +19,7 @@
 
     <!-- ios -->
     <platform name="ios">
+        <dependency id="cordova-plugin-wkwebview-inject-cookie" version="1.0.6" />
         <config-file target="config.xml" parent="/*">
             <feature name="CookieMaster">
                 <param name="ios-package" value="CDVCookieMaster"/>
